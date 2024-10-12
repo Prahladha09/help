@@ -3,7 +3,7 @@
 
 int main() {
     // Direction ratios
-    double a = 12.0, b = 2.0, c = 3.0;
+    double a = 6.0, b = 2.0, c = 3.0;
 
     // Calculate the magnitude
     double magnitude = sqrt(a * a + b * b + c * c);
@@ -28,3 +28,4 @@ int main() {
     fclose(file);
     return 0;
 }
+
